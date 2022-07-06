@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+    margin: 0 auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container h2 {
+    text-align: center;
+    font-size: 45px;
   }
-  to {
-    transform: rotate(360deg);
+  .search {
+    margin: 0 auto;
+    text-align: center;
   }
+  .search input {
+    width: 400px;
+    height: 35px;
+    /*! border-radius: 5px; */
+    border: 1px solid #333;
+    padding: 2px 20px;
+    font-size: 16px;
+    color: #333;
+    margin-right: 20px;
+  }
+  .search button {
+    padding: 2px 45px;
+    height: 42px;
+    line-height: 16px;
+    background-color: #98d098;
+    border: none;
+    cursor: pointer;
+  }
+  .movies {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+  }
+  
+  .movie {
+    width: 100%;
+margin: 0 auto;
+text-align: center;
+  }
+
+  .notfound {
+    margin: 0 auto;
+    text-align: center;
 }
+
+.notfound h3 {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+  @media only screen and (max-width: 600px) {
+    .movies {
+        grid-template-columns: 1fr;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .movies {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .movies {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

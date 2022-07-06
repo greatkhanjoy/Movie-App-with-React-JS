@@ -1,6 +1,13 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie APP with React Js
+
+A simple Movie Search APP build with React
+
+
+## Screenshots
+
+![App Screenshot](https://res.cloudinary.com/flairbeese/image/upload/v1657133001/Screenshot_15_ptihq5.jpg)
+
 
 ## Available Scripts
 

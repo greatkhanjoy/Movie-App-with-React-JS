@@ -1,4 +1,4 @@
-#[Live Demo](https://clever-queijadas-b0d45a.netlify.app/)
+#[Live Demo](https://movie-app-with-react-1.netlify.app/)
 
 # Movie APP with React Js
 
